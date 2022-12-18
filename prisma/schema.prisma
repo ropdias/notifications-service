@@ -1,0 +1,29 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// Creating the table Notification
+// "@id" for the primary key
+// recipientId: We are creating like a foreign key here, but it's a reference for an id of a user in another application
+// and not in a table here
+// "?" set that a value can receive a null value
+// @default do make it the default value if no value is passed
+// @@index([recipientId]) create an index for the recipientId
+model Notification {
+  id          String    @id
+  recipientId String
+  content     String
+  category    String
+  readAt      DateTime?
+  createdAt   DateTime  @default(now())
+
+  @@index([recipientId])
+}
