@@ -1,6 +1,8 @@
 import { INestApplication, Injectable, OnModuleInit } from '@nestjs/common';
 import { PrismaClient } from '@prisma/client';
 
+// Services are classes without a specific purpose. Can be anything actually. For example a connection with the database.
+// Here we are using the concept of "Dependency injection"
 @Injectable()
 export class PrismaService extends PrismaClient implements OnModuleInit {
   async onModuleInit() {
