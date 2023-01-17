@@ -10,7 +10,7 @@ export interface NotificationProps {
   recipientId: string;
   content: Content;
   category: string;
-  readtAt?: Date | null; // ? makes readAt be undefined. So in this case its like undefined | Date | null
+  readAt?: Date | null; // ? makes readAt be undefined. So in this case its like undefined | Date | null
   createdAt: Date;
 }
 
@@ -67,12 +67,12 @@ export class Notification {
     return this.props.category;
   }
 
-  public set readtAt(readtAt: Date | null | undefined) {
-    this.props.readtAt = readtAt;
+  public set readAt(readAt: Date | null | undefined) {
+    this.props.readAt = readAt;
   }
 
-  public get readtAt(): Date | null | undefined {
-    return this.props.readtAt;
+  public get readAt(): Date | null | undefined {
+    return this.props.readAt;
   }
 
   public get createdAt(): Date {

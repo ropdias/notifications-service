@@ -14,7 +14,7 @@ export class PrismaNotificationsRepository implements NotificationsRepository {
         category: notification.category,
         content: notification.content.value,
         recipientId: notification.recipientId,
-        readAt: notification.readtAt,
+        readAt: notification.readAt,
         createdAt: notification.createdAt,
       },
     });
