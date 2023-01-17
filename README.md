@@ -20,6 +20,18 @@ This project was developed during a Ignite Lab from Rocketseat.
 - [x] Routes and Validation
   - [x] Creating a New Notification
   - [x] Request Body validation
+- [x] Software Design & Domain Driven Design (DDD)
+- [x] Notification Entity
+  - [x] Getters / Setters
+- [x] Value Object of the content
+- [x] Jest Configuration
+- [x] Creating our first tests
+- [x] Use case of a notification creation
+- [x] Notifications Repository
+- [x] Testing our use case
+- [x] In-memory database
+- [x] Prisma Repository
+- [x] Connecting to the Infrastructure Layer
 
 
 ## Technologies:
