@@ -2,11 +2,12 @@ import { Replace } from 'src/helpers/Replace';
 import { Content } from './content';
 import { randomUUID } from 'node:crypto';
 
+// We are creating an interface to avoid conflicts between variable names and getters/setters names
 export interface NotificationProps {
   recipientId: string;
   content: Content;
   category: string;
-  readtAt?: Date | null;
+  readtAt?: Date | null; // ? makes readAt be undefined. So in this case its like undefined | Date | null
   createdAt: Date;
 }
 
