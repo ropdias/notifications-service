@@ -3,6 +3,9 @@ import { Content } from './content';
 import { randomUUID } from 'node:crypto';
 
 // We are creating an interface to avoid conflicts between variable names and getters/setters names
+// After creating a interface you can use like that:
+// const notification = new Notification({content: 'asdasd', category: 'asdasd'})
+// notification.content = 'asdasdsad';
 export interface NotificationProps {
   recipientId: string;
   content: Content;
@@ -10,6 +13,14 @@ export interface NotificationProps {
   readtAt?: Date | null; // ? makes readAt be undefined. So in this case its like undefined | Date | null
   createdAt: Date;
 }
+
+// Here we are creating a entity named Notification
+// Important note: Not necessarily one entity needs to be a table in a DB
+// you can have one entity that can be saved like 2 or 3 tables in the DB
+// For example you can have an entity class Order that has an variable OrderItem that is a table and other objects that are other tables
+// export class Order {
+//   private items: OrderItem[];
+// }
 
 export class Notification {
   private _id: string;
@@ -68,15 +79,3 @@ export class Notification {
     return this.props.createdAt;
   }
 }
-
-// const notification = new Notification();
-// notification.content = 'asdasdsad';
-// After creating a interface you can use like that:
-// const notification = new Notification({content: 'asdasd', category: 'asdasd'})
-
-// Not necessarily one entity needs to be a table in a DB
-// you can have one entity that can be saved like 2 or 3 tables in the DB
-// For example you can have an entity class Order that has an variable OrderItem that is table and other objects that are other tables
-// export class Order {
-//   private items: OrderItem[];
-// }
