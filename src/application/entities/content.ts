@@ -1,6 +1,7 @@
 export class Content {
   private readonly content: string;
 
+  // We will use "value" here instead of "content" to not be "content.content"
   get value(): string {
     return this.content;
   }
