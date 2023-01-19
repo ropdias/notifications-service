@@ -9,6 +9,9 @@ interface SendNotificationRequest {
   category: string;
 }
 
+// We create this to return an Object in the execute() method instead of an instance of a Class
+// Because if in the future we need to add more information to the Object we
+// just add it instead of changing the code where it already works
 interface SendNotificationResponse {
   notification: Notification;
 }
