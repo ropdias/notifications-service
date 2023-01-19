@@ -1,5 +1,15 @@
 import { InMemoryNotificationsRepository } from '../../../test/repositories/in-memory-notifications-repository';
+// import { Notification } from '../entities/notification';
 import { SendNotification } from './send-notification';
+
+// We could use the object below to test notificationsRepository directly
+// but we will pass this code to an InMemoryNotificationsRepository
+// const notifications: Notification[] = [];
+// const notificationsRepository = {
+//   async create(notification: Notification) {
+//     notifications.push(notification);
+//   },
+// };
 
 // Since we are using the concept of "Dependency inversion" who tells SendNotification() what repository to use is not itself
 // but the test that is creating a new instance of that class, and it's easier to test.
