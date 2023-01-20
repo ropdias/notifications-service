@@ -33,7 +33,7 @@ This project was developed during a Ignite Lab from Rocketseat.
 - [x] Prisma Repository
 - [x] Connecting to the Infrastructure Layer
 - [x] Configuring TypeScript paths
-- [ ] Data Mapper Pattern
+- [x] Using Mappers to transform data
 - [ ] Creating a view model
 - [ ] Use-cases
   - [ ] Cancel notification
