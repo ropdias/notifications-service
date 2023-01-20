@@ -32,7 +32,22 @@ This project was developed during a Ignite Lab from Rocketseat.
 - [x] In-memory database
 - [x] Prisma Repository
 - [x] Connecting to the Infrastructure Layer
-
+- [x] Configuring TypeScript paths
+- [ ] Data Mapper Pattern
+- [ ] Creating a view model
+- [ ] Use-cases
+  - [ ] Cancel notification
+    - [ ] Existing entities
+    - [ ] The inverse way in the mapper
+    - [ ] Factory Pattern (makeNotification)
+  - [ ] Count Notifications
+  - [ ] List Notifications by Recipient
+  - [ ] Read Notification
+    - [ ] Protecting the read date
+    - [ ] Handling errors in the use-case
+  - [ ] Undo notification read
+- [ ] Implementing Prisma Repository
+- [ ] HTTP Routes
 
 ## Technologies:
 
