@@ -5,6 +5,11 @@ import { PrismaClient } from '@prisma/client';
 // Here we are using the concept of "Dependency injection"
 @Injectable()
 export class PrismaService extends PrismaClient implements OnModuleInit {
+  // This constructor can be used to show in the console every query that is executed
+  // constructor() {
+  //   super({ log: ['query'] });
+  // }
+
   async onModuleInit() {
     await this.$connect();
   }
