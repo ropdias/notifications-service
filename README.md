@@ -36,10 +36,7 @@ This project was developed during a Ignite Lab from Rocketseat.
 - [x] Using Mappers to transform data
 - [x] Creating a view model
 - [ ] Use-cases
-  - [ ] Cancel notification
-    - [ ] Existing entities
-    - [ ] The inverse way in the mapper
-    - [ ] Factory Pattern (makeNotification)
+  - [x] Cancel notification
   - [ ] Count Notifications
   - [ ] List Notifications by Recipient
   - [ ] Read Notification
@@ -47,6 +44,9 @@ This project was developed during a Ignite Lab from Rocketseat.
     - [ ] Handling errors in the use-case
   - [ ] Undo notification read
 - [ ] Implementing Prisma Repository
+  - [ ] Existing entities
+  - [ ] The inverse way in the mapper
+  - [ ] Factory Pattern (makeNotification)
 - [ ] HTTP Routes
 
 ## Technologies:
