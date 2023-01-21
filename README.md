@@ -47,7 +47,7 @@ This project was developed during a Ignite Lab from Rocketseat.
 - [x] Implementing Prisma Repository
   - [x] Existing entities
   - [x] The inverse way in the mapper
-- [ ] HTTP Routes
+- [x] HTTP Routes
 
 ## Technologies:
 
