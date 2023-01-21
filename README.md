@@ -34,7 +34,7 @@ This project was developed during a Ignite Lab from Rocketseat.
 - [x] Connecting to the Infrastructure Layer
 - [x] Configuring TypeScript paths
 - [x] Using Mappers to transform data
-- [ ] Creating a view model
+- [x] Creating a view model
 - [ ] Use-cases
   - [ ] Cancel notification
     - [ ] Existing entities
