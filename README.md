@@ -37,7 +37,8 @@ This project was developed during a Ignite Lab from Rocketseat.
 - [x] Creating a view model
 - [ ] Use-cases
   - [x] Cancel notification
-  - [ ] Count Notifications
+  - [x] Count Notifications
+    - [ ] Factory Pattern (makeNotification)
   - [ ] List Notifications by Recipient
   - [ ] Read Notification
     - [ ] Protecting the read date
@@ -46,7 +47,6 @@ This project was developed during a Ignite Lab from Rocketseat.
 - [ ] Implementing Prisma Repository
   - [ ] Existing entities
   - [ ] The inverse way in the mapper
-  - [ ] Factory Pattern (makeNotification)
 - [ ] HTTP Routes
 
 ## Technologies:
