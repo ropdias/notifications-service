@@ -35,15 +35,15 @@ This project was developed during a Ignite Lab from Rocketseat.
 - [x] Configuring TypeScript paths
 - [x] Using Mappers to transform data
 - [x] Creating a view model
-- [ ] Use-cases
+- [x] Use-cases
   - [x] Cancel notification
   - [x] Count Notifications
     - [x] Factory Pattern (makeNotification)
   - [x] List Notifications by Recipient
-  - [ ] Read Notification
-    - [ ] Protecting the read date
-    - [ ] Handling errors in the use-case
-  - [ ] Undo notification read
+  - [x] Read Notification
+    - [x] Protecting the read date
+    - [x] Handling errors in the use-case
+  - [x] Undo notification read
 - [ ] Implementing Prisma Repository
   - [ ] Existing entities
   - [ ] The inverse way in the mapper
