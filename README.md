@@ -44,9 +44,9 @@ This project was developed during a Ignite Lab from Rocketseat.
     - [x] Protecting the read date
     - [x] Handling errors in the use-case
   - [x] Undo notification read
-- [ ] Implementing Prisma Repository
-  - [ ] Existing entities
-  - [ ] The inverse way in the mapper
+- [x] Implementing Prisma Repository
+  - [x] Existing entities
+  - [x] The inverse way in the mapper
 - [ ] HTTP Routes
 
 ## Technologies:

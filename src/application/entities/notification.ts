@@ -29,11 +29,14 @@ export class Notification {
 
   // Here we are using a helper type that we create to make the createdAt variable to be optional
   // when passing to the constructor without making it optional in the interface NotificationProps by default
-  constructor(props: Replace<NotificationProps, { createdAt?: Date }>) {
+  constructor(
+    props: Replace<NotificationProps, { createdAt?: Date }>,
+    id?: string,
+  ) {
     // this.props = props;
     // Every entity will have an id so later we could sepparate the id in a class named BaseEntity for example
     // and make Notification implement that
-    this._id = randomUUID();
+    this._id = id ?? randomUUID();
     this.props = {
       ...props,
       createdAt: props.createdAt ?? new Date(),
