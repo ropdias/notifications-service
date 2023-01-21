@@ -39,7 +39,7 @@ This project was developed during a Ignite Lab from Rocketseat.
   - [x] Cancel notification
   - [x] Count Notifications
     - [x] Factory Pattern (makeNotification)
-  - [ ] List Notifications by Recipient
+  - [x] List Notifications by Recipient
   - [ ] Read Notification
     - [ ] Protecting the read date
     - [ ] Handling errors in the use-case
